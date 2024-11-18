@@ -36,12 +36,12 @@ eps=0.5*18/100;//Elongation at break of PETG=18%
 */
 
 
-profile = 1; // [1:SnapY, 2:SnapH, 3:SnapHoleY, 4:RSanapY, 5:RRSnapY]
-if ( profile == 1 ) {SnapY(la=10,root=3,uCut=1,l=30,w=4,f=1,help=false ); }
-if ( profile == 2 ) {SnapH(l,root,uCut,w,f=1,help); }
-if ( profile == 3 ) {SnapHoleY(l=10,h=3,uCut=1,a=30,b=3,f=1,Pr=2); }
-if ( profile == 4 ) {RSnapY(l,h,a,Lobi,r2,f=1,K2=2); }
-if ( profile == 5 ) {RRSnapY(l,h,a,Lobi,r2,f=1,K1=2); }
+//profile = 1; // [1:SnapY, 2:SnapH, 3:SnapHoleY, 4:RSanapY, 5:RRSnapY]
+//if ( profile == 1 ) {SnapY(la=10,root=3,uCut=1,l=30,w=4,f=1,help=false ); }
+//if ( profile == 2 ) {SnapH(l,root,uCut,w,f=1,help); }
+//if ( profile == 3 ) {SnapHoleY(l=10,h=3,uCut=1,a=30,b=3,f=1,Pr=2); }
+//if ( profile == 4 ) {RSnapY(l,h,a,Lobi,r2,f=1,K2=2); }
+//if ( profile == 5 ) {RRSnapY(l,h,a,Lobi,r2,f=1,K1=2); }
 
 eps=0.5*6/100;//Elongation at break of PLA=6%
 
